@@ -1,0 +1,72 @@
+2026-01-18 20:20:35,745 | INFO | app.main | APIs Starting Up: Initializing Database Connection Pool
+2026-01-18 20:20:35,791 | INFO | app.main | Database Connection Pool: SUCCESS
+2026-01-18 20:20:51,151 | INFO | app.main | APIs Shutting Down: Disposing Connection Pool
+2026-01-18 20:20:52,934 | INFO | app.main | APIs Starting Up: Initializing Database Connection Pool
+2026-01-18 20:20:52,957 | INFO | app.main | Database Connection Pool: SUCCESS
+2026-01-18 20:21:24,237 | INFO | app.main | APIs Shutting Down: Disposing Connection Pool
+2026-01-18 20:21:26,083 | INFO | app.main | APIs Starting Up: Initializing Database Connection Pool
+2026-01-18 20:21:26,105 | INFO | app.main | Database Connection Pool: SUCCESS
+2026-01-18 20:21:43,870 | INFO | app.main | APIs Shutting Down: Disposing Connection Pool
+2026-01-18 20:21:45,844 | INFO | app.main | APIs Starting Up: Initializing Database Connection Pool
+2026-01-18 20:21:45,866 | INFO | app.main | Database Connection Pool: SUCCESS
+2026-01-18 20:21:46,958 | INFO | app.main | APIs Shutting Down: Disposing Connection Pool
+2026-01-18 20:21:48,842 | INFO | app.main | APIs Starting Up: Initializing Database Connection Pool
+2026-01-18 20:21:48,864 | INFO | app.main | Database Connection Pool: SUCCESS
+2026-01-18 20:21:52,048 | INFO | app.main | APIs Shutting Down: Disposing Connection Pool
+2026-01-18 20:21:53,999 | INFO | app.main | APIs Starting Up: Initializing Database Connection Pool
+2026-01-18 20:21:54,020 | INFO | app.main | Database Connection Pool: SUCCESS
+2026-01-18 20:22:51,822 | INFO | app.main | APIs Shutting Down: Disposing Connection Pool
+2026-01-18 20:22:53,723 | INFO | app.main | APIs Starting Up: Initializing Database Connection Pool
+2026-01-18 20:22:53,744 | INFO | app.main | Database Connection Pool: SUCCESS
+2026-01-18 20:23:07,346 | INFO | app.logger.api_logger | STARTED: get_self_pay_patients
+2026-01-18 20:23:07,346 | INFO | app.logger.api_logger | STARTED: get_self_pay_report
+2026-01-18 20:23:07,346 | INFO | app.logger.api_logger | STARTED: fetch_self_pay_patients
+2026-01-18 20:23:07,352 | INFO | app.logger.api_logger | FINISHED: fetch_self_pay_patients in 0.01s
+2026-01-18 20:23:07,352 | INFO | app.logger.api_logger | FINISHED: get_self_pay_report in 0.01s
+2026-01-18 20:23:07,352 | INFO | app.logger.api_logger | FINISHED: get_self_pay_patients in 0.01s
+2026-01-18 20:24:37,747 | INFO | app.main | APIs Shutting Down: Disposing Connection Pool
+2026-01-19 11:00:40,640 | INFO | app.main | APIs Starting Up: Initializing Database Connection Pool
+2026-01-19 11:00:40,687 | INFO | app.main | Database Connection Pool: SUCCESS
+2026-01-19 11:01:58,921 | INFO | app.logger.api_logger | STARTED: get_self_pay_patients
+2026-01-19 11:01:58,921 | INFO | app.logger.api_logger | STARTED: get_self_pay_report
+2026-01-19 11:01:58,922 | INFO | app.logger.api_logger | STARTED: fetch_self_pay_patients
+2026-01-19 11:01:58,930 | INFO | app.logger.api_logger | FINISHED: fetch_self_pay_patients in 0.01s
+2026-01-19 11:01:58,930 | INFO | app.logger.api_logger | FINISHED: get_self_pay_report in 0.01s
+2026-01-19 11:01:58,930 | INFO | app.logger.api_logger | FINISHED: get_self_pay_patients in 0.01s
+2026-01-19 11:03:11,795 | INFO | app.logger.api_logger | STARTED: get_self_pay_patients
+2026-01-19 11:03:11,795 | INFO | app.logger.api_logger | STARTED: get_self_pay_report
+2026-01-19 11:03:11,795 | INFO | app.logger.api_logger | STARTED: fetch_self_pay_patients
+2026-01-19 11:03:11,799 | INFO | app.logger.api_logger | FINISHED: fetch_self_pay_patients in 0.00s
+2026-01-19 11:03:11,799 | INFO | app.logger.api_logger | FINISHED: get_self_pay_report in 0.00s
+2026-01-19 11:03:11,799 | INFO | app.logger.api_logger | FINISHED: get_self_pay_patients in 0.00s
+2026-01-19 11:04:29,095 | INFO | app.logger.api_logger | STARTED: get_self_pay_patients
+2026-01-19 11:04:29,095 | INFO | app.logger.api_logger | STARTED: get_self_pay_report
+2026-01-19 11:04:29,095 | INFO | app.logger.api_logger | STARTED: fetch_self_pay_patients
+2026-01-19 11:04:29,100 | INFO | app.logger.api_logger | FINISHED: fetch_self_pay_patients in 0.00s
+2026-01-19 11:04:29,100 | INFO | app.logger.api_logger | FINISHED: get_self_pay_report in 0.00s
+2026-01-19 11:04:29,100 | INFO | app.logger.api_logger | FINISHED: get_self_pay_patients in 0.01s
+2026-01-19 11:04:40,631 | INFO | app.logger.api_logger | STARTED: get_self_pay_patients
+2026-01-19 11:04:40,631 | INFO | app.logger.api_logger | STARTED: get_self_pay_report
+2026-01-19 11:04:40,631 | INFO | app.logger.api_logger | STARTED: fetch_self_pay_patients
+2026-01-19 11:04:40,634 | INFO | app.logger.api_logger | FINISHED: fetch_self_pay_patients in 0.00s
+2026-01-19 11:04:40,635 | INFO | app.logger.api_logger | FINISHED: get_self_pay_report in 0.00s
+2026-01-19 11:04:40,635 | INFO | app.logger.api_logger | FINISHED: get_self_pay_patients in 0.00s
+2026-01-19 11:05:13,817 | INFO | app.logger.api_logger | STARTED: get_self_pay_patients
+2026-01-19 11:05:13,817 | INFO | app.logger.api_logger | STARTED: get_self_pay_report
+2026-01-19 11:05:13,817 | INFO | app.logger.api_logger | STARTED: fetch_self_pay_patients
+2026-01-19 11:05:13,819 | INFO | app.logger.api_logger | FINISHED: fetch_self_pay_patients in 0.00s
+2026-01-19 11:05:13,819 | INFO | app.logger.api_logger | FINISHED: get_self_pay_report in 0.00s
+2026-01-19 11:05:13,819 | INFO | app.logger.api_logger | FINISHED: get_self_pay_patients in 0.00s
+2026-01-19 11:05:28,144 | INFO | app.logger.api_logger | STARTED: get_self_pay_patients
+2026-01-19 11:05:28,144 | INFO | app.logger.api_logger | STARTED: get_self_pay_report
+2026-01-19 11:05:28,144 | INFO | app.logger.api_logger | STARTED: fetch_self_pay_patients
+2026-01-19 11:05:28,148 | INFO | app.logger.api_logger | FINISHED: fetch_self_pay_patients in 0.00s
+2026-01-19 11:05:28,148 | INFO | app.logger.api_logger | FINISHED: get_self_pay_report in 0.00s
+2026-01-19 11:05:28,148 | INFO | app.logger.api_logger | FINISHED: get_self_pay_patients in 0.00s
+2026-01-19 11:05:50,686 | INFO | app.logger.api_logger | STARTED: get_self_pay_patients
+2026-01-19 11:05:50,686 | INFO | app.logger.api_logger | STARTED: get_self_pay_report
+2026-01-19 11:05:50,686 | INFO | app.logger.api_logger | STARTED: fetch_self_pay_patients
+2026-01-19 11:05:50,689 | INFO | app.logger.api_logger | FINISHED: fetch_self_pay_patients in 0.00s
+2026-01-19 11:05:50,689 | INFO | app.logger.api_logger | FINISHED: get_self_pay_report in 0.00s
+2026-01-19 11:05:50,689 | INFO | app.logger.api_logger | FINISHED: get_self_pay_patients in 0.00s
+2026-01-19 11:06:10,182 | INFO | app.main | APIs Shutting Down: Disposing Connection Pool

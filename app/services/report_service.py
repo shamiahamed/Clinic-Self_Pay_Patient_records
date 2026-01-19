@@ -1,9 +1,12 @@
 from app.repositories.report_repository import fetch_self_pay_patients
 from app.core.exception import DatabaseException
+from app.logger.api_logger import log_execution
+from app.schemas.report_schemas import SelfPayFilter
 
-async def get_self_pay_report(db, user, filters):
+@log_execution
+async def get_self_pay_report(db, user, filters: SelfPayFilter):
     """
-    Receives the 'filters' Pydantic object and extracts what the repo needs.
+    Requirement #7 & #8: Receives validated Pydantic object.
     """
     try:
         # 1. Map fields for the repository WHERE clause
@@ -16,7 +19,8 @@ async def get_self_pay_report(db, user, filters):
             "min_balance": filters.min_balance
         }
 
-        # 2. Call the repository using object attributes
+        # 2. Call the repository
+        # Note: we use filters.page_size to match the schema
         return await fetch_self_pay_patients(
             db=db,
             clinic_id=filters.clinic_id,
@@ -28,5 +32,5 @@ async def get_self_pay_report(db, user, filters):
         )
         
     except Exception as e:
-        # Using the custom exception you created
+        # Proper Exception Wrapping
         raise DatabaseException(f"Report Service Error: {str(e)}")
